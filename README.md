@@ -110,6 +110,7 @@ This project demonstrates how public financial data can be transformed into stra
 ## 👤 Author
 
 **Thaynan Rodrigues**
+
 **Data Analyst | Data Scientist**
 
 ---
