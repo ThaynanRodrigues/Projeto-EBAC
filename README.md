@@ -1,50 +1,121 @@
-# 📊 Projeto de Análise de Receitas Públicas  
+# 📊 Public Revenue Analysis Project
 
-Este projeto tem como objetivo analisar e comparar os **valores previstos e realizados** de receitas públicas, destacando padrões, variações e a composição do mix por categoria econômica. As análises foram realizadas utilizando **Google BigQuery, SQL, Python** e **Looker Studio** para construção de dashboards interativos.  
+## 🔎 Overview
 
----
-
-## 🚀 Objetivos do Projeto
-- Explorar e tratar dados financeiros referentes a receitas públicas.  
-- Comparar valores **previstos x realizados** para identificar aderência e desvios orçamentários.  
-- Analisar a **distribuição por categorias econômicas** (Receitas Correntes, de Capital, intra-orçamentárias).  
-- Construir **dashboards interativos** no Looker Studio, com visualizações que facilitem a interpretação dos resultados.  
+This project aims to analyze and compare **forecasted and actual public revenues**, identifying trends, budget deviations, and the composition of revenue categories. The analysis was conducted using **Google BigQuery, SQL, Python, and Looker Studio** to build interactive dashboards and generate actionable insights.
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas Utilizadas
-- **Python** (tratamento e análise de dados)  
-- **SQL / BigQuery** (consultas e manipulação dos dados)  
-- **Looker Studio** (dashboards e visualizações)  
-- **Excel / Google Sheets** (apoio em organização dos dados)  
+## 🎯 Project Objectives
+
+* Explore and process public financial data.
+* Compare **forecasted vs. actual revenues** to evaluate budget adherence and identify deviations.
+* Analyze the distribution of revenues across economic categories.
+* Develop interactive dashboards to support data-driven decision-making.
+* Generate insights into revenue performance and budget execution.
 
 ---
 
-## 📊 Fonte dos Dados
-Os dados utilizados neste projeto foram extraídos do **Portal da Transparência**, disponíveis para download em formato CSV:  
-👉 [Portal da Transparência – Receitas](https://portaldatransparencia.gov.br/download-de-dados/receitas)
+## 🛠️ Technologies & Tools
+
+* **Python** – Data processing and analysis
+* **SQL / Google BigQuery** – Data querying and manipulation
+* **Looker Studio** – Dashboard development and visualization
+* **Excel / Google Sheets** – Data organization and validation
 
 ---
 
-## 📈 Visualizações Criadas
-- **Gráfico de Barras por Mês/Ano** → evolução dos valores realizados ao longo do tempo.  
-- **Colunas Empilhadas Ano x Categoria Econômica** → análise do mix de receitas.  
-- **Gráfico de Dispersão (Previsto x Realizado)** → avaliação da aderência às previsões.  
-- **Top 5 UGs** → unidades com maiores valores previstos e realizados.  
-- **Tabela Dinâmica** → visão detalhada por ano, categoria e total geral.  
+## 📊 Data Source
+
+The dataset was obtained from Brazil's **Transparency Portal**, which provides public financial data in CSV format.
+
+🔗 **Data Source:**
+https://portaldatransparencia.gov.br/download-de-dados/receitas
 
 ---
 
-## 🔍 Principais Insights
-- Janeiro de 2025 apresentou o maior pico de valores realizados, sugerindo padrão sazonal.  
-- A execução de 2024 ficou próxima do previsto, enquanto 2025 mostra até agora menor aderência.  
-- Receitas Correntes representam a maior parte da arrecadação, mas as Receitas de Capital também têm peso relevante.  
-- Categorias intra-orçamentárias têm participação pouco significativa no total.  
-- Há boa correlação entre valores previstos e realizados, com poucas distorções.  
+## 📈 Dashboard Features
+
+### Revenue Trend Analysis
+
+* Monthly and yearly analysis of actual revenues.
+* Time-series visualization to identify growth patterns and seasonality.
+
+### Revenue Composition
+
+* Stacked column charts displaying revenue distribution by economic category.
+* Comparative analysis of Current Revenues, Capital Revenues, and Intra-Budget Revenues.
+
+### Forecast vs. Actual Analysis
+
+* Scatter plot visualization to evaluate budget adherence.
+* Identification of discrepancies between planned and executed revenues.
+
+### Top Revenue Units
+
+* Ranking of the top five administrative units with the highest forecasted and actual revenues.
+
+### Detailed Reporting
+
+* Interactive pivot tables with breakdowns by year, category, and totals.
 
 ---
 
-## 📊 Dashboard Interativo
-O projeto foi finalizado em um **dashboard interativo no Looker Studio**, permitindo explorar os dados de forma dinâmica e clara.  
+## 🔍 Key Insights
+
+* January 2025 recorded the highest level of actual revenues, suggesting a seasonal pattern.
+* Revenue execution in 2024 remained closely aligned with budget forecasts, while 2025 has shown lower adherence so far.
+* Current Revenues account for the largest share of total revenue collection.
+* Capital Revenues continue to represent a significant portion of overall revenues.
+* Intra-budget revenues contribute only a small percentage of total collections.
+* A strong correlation was observed between forecasted and actual revenues, with limited distortions.
 
 ---
+
+## 📊 Interactive Dashboard
+
+The project was completed through an interactive **Looker Studio dashboard**, allowing users to explore revenue data dynamically and gain insights through intuitive visualizations.
+
+### Main Dashboard Components
+
+* KPI Cards
+* Revenue Trend Analysis
+* Revenue Mix by Category
+* Forecast vs. Actual Comparison
+* Top Revenue Units
+* Interactive Filters and Drill-Down Analysis
+
+---
+
+## 💡 Business Value
+
+This project demonstrates how public financial data can be transformed into strategic information through data analytics and business intelligence techniques. The resulting dashboard enables better monitoring of budget execution, supports transparency initiatives, and facilitates data-driven decision-making.
+
+---
+
+## 🛠️ Skills Demonstrated
+
+* Data Analysis
+* Data Visualization
+* Business Intelligence
+* SQL Querying
+* ETL Processes
+* Dashboard Development
+* Financial Data Analysis
+* KPI Design
+* Data Storytelling
+
+---
+
+## 👤 Author
+
+**Thaynan Rodrigues**
+**Data Analyst | Data Scientist**
+
+---
+
+## 🌐 Contact
+
+🔗 LinkedIn: https://www.linkedin.com/in/thaynanrodrigues/
+
+🔗 GitHub: https://github.com/ThaynanRodrigues
